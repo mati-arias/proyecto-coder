@@ -14,27 +14,30 @@
 
 <body>
   <header>
-    <img id="logo" src="../imagenes/WhatsApp Image 2023-03-18 at 15.00.17.jpeg" alt="Logo de mi empresa">
-    <span>Dulce Nanet</span>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="./nosotros.html">Nosotros</a></li>
-        <li><a href="./productos.html">Productos</a></li>
-        <li><a href="./clientes.html">Clientes</a></li>
-        <li><a href="./contacto.html">Contacto</a></li>
-      </ul>
-      <form>
-        <input type="text" id="search-bar" placeholder="Buscar...">
-        <button type="button" onclick="search()">Buscar</button>
-      </form>
-    </nav>
-
-
-    <ul id="results-list">
-      <!-- Resultados de búsqueda aparecerán aquí -->
-    </ul>
-
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+      <div class="container-fluid">
+        <a  class="navbar-brand" style="width: 10%;" href="index.html"><img id="logo" src="../imagenes/WhatsApp Image 2023-03-18 at 15.00.17.jpeg" alt=""></a>
+        <button class="navbar-toggler hambur" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div>
+            <span>Dulce Nanet</span>
+            <ul class="listaH ">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="./nosotros.html">Nosotros</a></li>
+              <li><a href="./productos.html">Productos</a></li>
+              <li><a href="./clientes.html">Clientes</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success boton" style="background-color: blanchedalmond ; color: #890500;" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+  
   </header>
   <main class="mainContact">
     <div>
